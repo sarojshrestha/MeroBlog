@@ -7,7 +7,7 @@
         public string? ShortDescription { get; set; }
 
         //relation
-        public int? ApplicationId { get; set; }
+        public string? ApplicationId { get; set; }
         public ApplicationUser? ApplicationUser { get; set;}
 
         public DateTime CreatedDate { get; set; } = DateTime.Now;

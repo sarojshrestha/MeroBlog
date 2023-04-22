@@ -10,8 +10,8 @@ namespace MeroBlog.Data
         {
             
         }
-        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
-        public DbSet<Page> Pages { get; set; }
-        public DbSet<Post> Posts { get; set; }
+        public DbSet<ApplicationUser>? ApplicationUsers { get; set; }
+        public DbSet<Page>? Pages { get; set; }
+        public DbSet<Post>? Posts { get; set; }
     }
 }
